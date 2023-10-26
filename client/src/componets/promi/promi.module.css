@@ -1,0 +1,29 @@
+.rtl{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background:#19a3b4;
+    height: 70px;
+    width: 300px;
+    width: 50%;
+
+}
+.rtl2{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: rgb(165, 161, 161);
+    right: 0;
+    left: 0;
+    height: 70px;
+    width: 50%;
+    
+}
+.rl{
+    display: flex;
+    height: 100%;
+}
+.h2{
+    display: flex;
+    align-items: center;
+}
