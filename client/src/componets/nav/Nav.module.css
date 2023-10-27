@@ -33,13 +33,12 @@
 .nav{
   display: flex;
   align-items: center;
+  position: relative;
 }
 .nav h4{
   color: #fff;
 }
-.nev{
-  display: flex;
-}
+
 .iconesdocabeçalho {
   background-color: #1496a7;
   display: flex;
@@ -73,8 +72,7 @@
     align-items: flex-end;
   }
   
-  
-  
+
   
   .navBars:hover{
     color:#60611d;

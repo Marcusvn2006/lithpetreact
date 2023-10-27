@@ -1,7 +1,7 @@
 import "./App.css"
 import Footer from "./componets/footer/footer";
 import Nav from './componets/nav/Nav'
-import Nev from './componets/nev/nev'
+
 
 
 

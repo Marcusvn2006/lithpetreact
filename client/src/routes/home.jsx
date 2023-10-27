@@ -96,16 +96,16 @@ const Homes = () => {
         </SaleCard>
       </div>
       <div className="containeres">
-        <Btns link={"/"} img={banho}>
+        <Btns link={"/finaliz"} img={banho}>
           banho & tosa
         </Btns>
-        <Btns link={"/"} img={vet}>
+        <Btns link={"/finaliz"} img={vet}>
           Veterinario
         </Btns>
-        <Btns link={"/"} img={ades}>
+        <Btns link={"/finaliz"} img={ades}>
           Adestramento
         </Btns>
-        <Btns link={"/"} img={wal}>
+        <Btns link={"/finaliz"} img={wal}>
           Dog walker
         </Btns>
       </div>
