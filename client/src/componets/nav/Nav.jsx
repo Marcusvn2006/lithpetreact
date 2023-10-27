@@ -32,7 +32,7 @@ const Nav = () => {
       <input type="text" placeholder="Buscar" />
 <div className={styles.nav}>
 {/* <CartButton/> */}
-  <h4>entre ou cadastre</h4>
+ <Link to="/finaliz"> <h4>entre ou cadastre</h4></Link>
   <CartButton/>
  <img src={hear} alt="" />
 </div>

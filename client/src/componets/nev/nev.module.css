@@ -15,6 +15,10 @@
     padding: 11px;
     border-radius: 10px;
     font-family: "Times New Roman", Times, serif;
+    color: white;
+    
     list-style: none;
   } 
-  
+  a{
+    color: white;
+  }

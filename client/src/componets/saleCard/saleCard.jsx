@@ -6,7 +6,7 @@ const SaleCard = ({discount, fullPreto, title, onAdd,children}) => {
   return (
     <div className={styles.saleCard}> 
       <div className={styles.info}>
-     <img src={`/src/assets/products/${title}.png`} alt=""width={"300px"}height={"100"} />
+     <img src={title} alt=""width={"300px"}height={"100"} />
         <h3>{children}</h3>
         <div className={styles.priceCard}>
     

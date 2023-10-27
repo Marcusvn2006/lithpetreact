@@ -34,5 +34,6 @@ margin-bottom: 10px;
 
 .saleCard img{
     width: 200px;
+    mix-blend-mode: multiply;
     height: 240px;
 }

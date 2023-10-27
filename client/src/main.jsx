@@ -9,8 +9,9 @@ import Loja from './routes/loja/loja.jsx';
 import Homes from './routes/home.jsx';
 import Error from './routes/error.jsx';
 import Banho from './routes/banho/banho.jsx';
-import Localizacao from './routes/Localização/Localizacao.jsx';
+
 import Contatos from './routes/Contatos/Contatos.jsx';
+import Finaliz from './routes/finaliz/finaliz.jsx';
 const router = createBrowserRouter([
   {
     path: "/",
@@ -20,7 +21,7 @@ const router = createBrowserRouter([
       { path: "/", element: <Homes/> },
       { path: "loja", element: <Loja /> },
       { path: "banho", element: <Banho/> },
-      { path: "localizacao", element: <Localizacao /> },
+      { path: "finaliz", element: <Finaliz /> },
       { path: "contato", element: <Contatos /> },
     ],
   },

@@ -4,10 +4,20 @@ import styles from "./cartMenu.module.css";
 import { cartState } from "../../atoms/cart";
 import { useRecoilState } from "recoil";
 import { useEffect, useRef } from "react";
-
+import Swal from 'sweetalert2'
 const CarMenu = ({ isOpen, onClose }) => {
-  const [cart, setCart] = useRecoilState(cartState);
+  const handleClick = async()=>{
+    const result = await fetch("comprado");
+    Swal.fire({
+      title: 'Compra Finalizada!',
+      text: 'Obrigado pela preferencia',
+      icon: 'success',
+      confirmButtonText: 'OK',
+    });
 
+  }
+  
+  const [cart, setCart] = useRecoilState(cartState);
   const cartRef = useRef();
 
   useEffect(() => {
@@ -56,7 +66,7 @@ if(!isOpen) return null;
         </h2>
       </div>
 
-      <Button fullwidth>Finalizar Compra</Button>
+      <Button onClick={handleClick}  fullwidth>Finalizar Compra</Button>
     </div>
   );
 };
